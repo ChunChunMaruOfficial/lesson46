@@ -6,6 +6,8 @@ void rand_init(int*, int);
 
 string show(int*, int);
 
+//אכמאמאממאמאמאממאגכמûנאאהûנאכהנפûזןנאזפנןזנפןזנזןנזפ
+
 int main() {
 	srand(time(NULL));
 	int size = rand() % 20;
