@@ -1,4 +1,4 @@
-#include <iostream> 
+п»ї#include <iostream> 
 
 using namespace std;
 
@@ -6,7 +6,7 @@ void rand_init(int*, int);
 
 string show(int*, int);
 
-//алоаоаооаоаоаооавлоыраадыралдрфыжпражфрпжрфпжржпржф
+//Р°Р»РѕР°РѕР°РѕРѕР°РѕР°РѕР°РѕРѕР°РІР»РѕС‹СЂР°Р°РґС‹СЂР°Р»РґСЂС„С‹Р¶РїСЂР°Р¶С„СЂРїР¶СЂС„РїР¶СЂР¶РїСЂР¶С„
 
 int main() {
 	srand(time(NULL));
