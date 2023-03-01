@@ -6,7 +6,11 @@ void rand_init(int*, int);
 
 string show(int*, int);
 
-//алоаоаооаоаоаооавлоыраадыралдрфыжпражфрпжрфпжржпржф
+int max(int*, int);
+
+int min(int*, int);
+
+// теперь это понятный, разборчивый текст) (UTF-8)
 
 int main() {
 	srand(time(NULL));
@@ -16,7 +20,8 @@ int main() {
 
 	rand_init(array, size);
 	cout << show(array, size) << endl;
-
+	cout << "Max: " << max(array, size) << endl;
+	cout << "Min: " << min(array, size) << endl;
 	delete[] array;
 
 	return 0;
