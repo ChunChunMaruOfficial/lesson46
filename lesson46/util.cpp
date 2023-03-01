@@ -1,7 +1,6 @@
-#include <iostream> 
+#include "main.h"
 #include <string> 
-
-using namespace std;
+#include "util.h"
 
 
 void rand_init(int* array, int size) {

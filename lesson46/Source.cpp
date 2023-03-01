@@ -1,14 +1,9 @@
-﻿#include <iostream> 
+﻿#include "main.h"
 
-using namespace std;
+#include "util.h"
 
-void rand_init(int*, int);
+#include "logic.h"  //
 
-string show(int*, int);
-
-int max(int*, int);
-
-int min(int*, int);
 
 // теперь это понятный, разборчивый текст) (UTF-8)
 
