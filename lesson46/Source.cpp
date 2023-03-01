@@ -9,7 +9,7 @@ string show(int*, int);
 int main() {
 	srand(time(NULL));
 	int size = rand() % 20;
-
+	
 	int* array = new int[size];
 
 	rand_init(array, size);
